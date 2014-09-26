@@ -10,4 +10,4 @@ decide on an asthetic for my career documents.
 
 I did not collaborate with anyone.
 
-I spent about 2 hours on this assignment.
+I spent about 3 hours on this assignment.

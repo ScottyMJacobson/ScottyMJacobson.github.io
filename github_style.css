@@ -1,12 +1,3 @@
-@font-face {
-    font-family:"BebasNeue";
-    src: url('https://dl.dropboxusercontent.com/u/34555157/BebasNeue.eot');
-    src: url('https://dl.dropboxusercontent.com/u/34555157/BebasNeue.eot') format("embedded-opentype"), 
-    url('https://dl.dropboxusercontent.com/u/34555157/BebasNeue.svg') format("svg"), url('https://dl.dropboxusercontent.com/u/34555157/BebasNeue.woff') format("woff"), 
-    url('https://dl.dropboxusercontent.com/u/34555157/BebasNeue.ttf') format("truetype");
-}
-
-
 html {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
@@ -32,7 +23,6 @@ h2 {
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-    -webkit-font-smoothing: antialiased;
 }
 
 h4 {
@@ -45,7 +35,6 @@ h4 {
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-    -webkit-font-smoothing: antialiased;
     margin-bottom: 0px;
 }
 
@@ -58,7 +47,6 @@ ul {
     font-weight: 100;
     font-variant: normal;
     text-transform: none;
-    -webkit-font-smoothing: antialiased;
     list-style: none;
 }
 

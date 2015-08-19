@@ -381,6 +381,13 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
+.carousel .item {
+  margin: auto;
+}
+.carousel .item img {
+  height: 200px;
+  margin: auto;
+}
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }

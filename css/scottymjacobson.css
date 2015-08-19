@@ -20,7 +20,7 @@ h6 {
   text-transform: uppercase;
   font-family: "bebas_neue_regularregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
 }
 p {
   margin: 0 0 25px;
@@ -143,6 +143,7 @@ a:focus {
 }
 .intro .intro-body .brand-heading {
   font-size: 40px;
+  letter-spacing: 10px;
 }
 .intro .intro-body .brand-heading:before {
   content: ' ';
@@ -160,9 +161,6 @@ a:focus {
 .intro .intro-body .name-holder {
   display: inline-block;
 }
-.intro .intro-body h1 {
-  letter-spacing: 15px;
-}
 .intro .intro-body .intro-text {
   font-size: 18px;
 }
@@ -173,9 +171,15 @@ a:focus {
   }
   .intro .intro-body .brand-heading {
     font-size: 100px;
+    letter-spacing: 10px;
   }
   .intro .intro-body .intro-text {
     font-size: 26px;
+  }
+}
+@media (min-width: 1000px) {
+  .intro .intro-body .brand-heading {
+    letter-spacing: 15px;
   }
 }
 .btn-circle {
@@ -283,12 +287,12 @@ a:focus {
 .content-section p.quote {
   margin-top: 35px;
   font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: none;
+  text-transform: uppercase;
   font-weight: 300;
   font-size: 12px;
   font-style: italic;
 }
-.download-section {
+.projects-section {
   width: 100%;
   padding: 50px 0;
   color: white;

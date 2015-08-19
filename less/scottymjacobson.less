@@ -25,7 +25,7 @@ h6 {
     text-transform: uppercase;
     font-family: "bebas_neue_regularregular","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
 }
 
 p {
@@ -151,6 +151,7 @@ a {
         vertical-align: middle;
         .brand-heading {
             font-size: 40px;
+            letter-spacing: 10px;
         }
         .brand-heading:before {
             content:' ';
@@ -168,22 +169,28 @@ a {
             .name-holder {
                 display: inline-block;
             }
-            h1 {
-                letter-spacing: 15px;
-            }
         .intro-text {
             font-size: 18px;
         }
     }
+
     @media(min-width:768px) {
         height: 100%;
         padding: 0;
         .intro-body {
             .brand-heading {
                 font-size: 100px;
+                letter-spacing: 10px;
             }
             .intro-text {
                 font-size: 26px;
+            }
+        }
+    }
+    @media(min-width:1000px) {
+        .intro-body {
+            .brand-heading {
+                letter-spacing: 15px;
             }
         }
     }
@@ -303,14 +310,14 @@ a {
     p.quote {
         margin-top: 35px;
         font-family: 'Montserrat',"Helvetica Neue", Helvetica, Arial, sans-serif;
-        text-transform: none;
+        text-transform: uppercase;
         font-weight: 300;
         font-size: 12px;
         font-style: italic;
     }
 }
 
-.download-section {
+.projects-section {
     width: 100%;
     padding: 50px 0;
     color: white;

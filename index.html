@@ -130,7 +130,7 @@
                     <h2>Projects</h2>
                 </div>
 
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
                   <!-- Indicators -->
                   <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -143,18 +143,37 @@
                   <div class="carousel-inner" role="listbox">
                     <div class="item active">
                         <div class="carousel-caption">
-                            <h3>Chania</h3>
-                            <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                            <h3>
+                                <a href="" target="_blank">
+                                Havenn
+                                </a>
+                            </h3>
+                            <p class="caption">Havenn, developed as the final project for COMP120 Web Engineering, is a social network inspired by Instagram that allows users to anonymously post content to specialized subject groups, or Venns. Sprint goals of the project included Redis-powered caching, refactoring the frontend to be an AJAX-driven Angular app, and offloading asynchronous work in the backend to a Celery task queue.</p>
                         </div>
-                      <img src="https://s3.amazonaws.com/poly-screenshots.angel.co/Project/e5/100417/698b3acf9d3d97bd8e53f3a058470701-original.png" alt="Chania">
+                        <img src="./img/havenn_screenshot.jpg" alt="havenn">
                     </div>
 
                     <div class="item">
-                      <img src="https://s3.amazonaws.com/poly-screenshots.angel.co/Project/e5/100417/698b3acf9d3d97bd8e53f3a058470701-original.png" alt="Chania">
+                        <div class="carousel-caption">
+                            <h3>
+                                <a href="https://github.com/ScottyMJacobson/ostracon" target="_blank">
+                                    Ostracon
+                                </a>
+                            </h3>
+                            <p class="caption">Named for the stones on which Athenians cast their votes, Ostracon is a library built in Erlang and JavaScript that facilitates concurrent communication between multiple clients through a single server. It is set up to simultaneously handle and push changes in state across many clients in near real-time. Our goal when designing it was to eliminate boilerplate code in distributed web games, and as a proof-of-concept, we built a multiplayer "snake"-like example game.</p>
+                        </div>
+                        <img src="./img/ostracon_screenshot.jpg" alt="Ostracon">
                     </div>
 
                     <div class="item">
-                      <img src="https://s3.amazonaws.com/poly-screenshots.angel.co/Project/e5/100417/698b3acf9d3d97bd8e53f3a058470701-original.png" alt="Flower">
+                        <img src="" alt="Aproxymate">
+                        <div class="carousel-caption">
+                            <h3><a href="https://github.com/ScottyMJacobson/aproxymate" target="_blank">Aproxymate / MemKeshed</a></h3>
+                            <p class="caption">Aproxymate is an HTTP proxy written in python. 
+                            It handles HTTP GET requests and does basic temporary caching through its companion, Memkeshed. 
+                            Both were built atop python's HTTPServer and TCPServer modules, utilizing HTTP for aproxymate and a custom (esoteric, pop-culture-inspired) plaintext TCP protocol (modeled after memcached's) for communication with Memkeshed. 
+                            A full walkthrough of the code, protocol, and their design can be found in <a href="https://scottymjacobson.github.io/aproxymate/aproxymate_presentation.html">this presentation.</a></p>
+                        </div>
                     </div>
 
                     <div class="item">
@@ -172,7 +191,7 @@
                     <span class="sr-only">Next</span>
                   </a>
                 </div>
-                
+
             </div>
             
 

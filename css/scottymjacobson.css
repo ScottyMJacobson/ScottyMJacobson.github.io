@@ -381,12 +381,34 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
+.carousel .carousel-control {
+  background-image: none;
+}
 .carousel .item {
   margin: auto;
 }
 .carousel .item img {
-  height: 200px;
+  height: 400px;
   margin: auto;
+}
+.carousel .item .carousel-caption {
+  right: 21%;
+  left: 21%;
+  bottom: 0px;
+  box-shadow: none;
+}
+.carousel .item .carousel-caption p.caption {
+  font-size: 15px;
+  background: rgba(0, 0, 0, 0.75);
+}
+.carousel .item .carousel-caption h3 {
+  bottom: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 4px 8px;
+  color: white;
+  margin: 0;
+  text-align: center;
 }
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);

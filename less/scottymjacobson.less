@@ -418,12 +418,36 @@ img::-moz-selection {
 }
 
 .carousel {
+    .carousel-control {
+        background-image: none;
+    }
+
     // width: 50%;
     .item {
         margin: auto;
         img {
-            height: 200px;
+            height: 400px;
             margin: auto;
+        }
+        .carousel-caption {
+            right: 21%;
+            left: 21%;
+            bottom: 0px;
+            p.caption {
+                font-size: 15px;
+                background: rgba(0, 0, 0, 0.75);
+            }
+            h3 {
+                bottom: 10px;
+                left: 10px;
+                background: rgba(0, 0, 0, 0.75);
+                padding: 4px 8px;
+                color: white;
+                margin: 0;
+                // font: 14px Sans-Serif;
+                text-align: center;
+            }
+            box-shadow: none;
         }
     }
 }

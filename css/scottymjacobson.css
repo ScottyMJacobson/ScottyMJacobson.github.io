@@ -136,7 +136,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/original-intro-bg.jpg) no-repeat bottom center scroll;
+  background: url(../img/pier-intro-bg-2.png) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -407,9 +407,18 @@ img::-moz-selection {
 .carousel .item {
   margin: auto;
 }
-.carousel .item img {
-  height: 400px;
-  margin: auto;
+@media (max-width: 767px) {
+  .carousel .item img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+}
+@media (min-width: 768px) {
+  .carousel .item img {
+    height: 400px;
+    margin: auto;
+  }
 }
 .carousel .item .carousel-caption {
   right: 21%;

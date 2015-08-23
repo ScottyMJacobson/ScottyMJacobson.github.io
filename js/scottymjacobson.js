@@ -24,6 +24,12 @@ $(function() {
     });
 });
 
+// Javascript to hide email from web crawlers
+$(function () {
+    $('span.email-hiding').text("Scotty" + "M" + "Jacobson");
+    $('a.email-hiding').attr('href', "mailto:" + "Scotty" + "M" + "Jacobson" + "@" + "gmail.com");
+});
+
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();

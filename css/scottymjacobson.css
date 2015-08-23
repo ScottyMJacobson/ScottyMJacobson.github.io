@@ -130,7 +130,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  background: url(../img/original-intro-bg.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -144,6 +144,7 @@ a:focus {
 .intro .intro-body .brand-heading {
   font-size: 40px;
   letter-spacing: 10px;
+  margin-top: 40px;
 }
 .intro .intro-body .brand-heading:before {
   content: ' ';
@@ -163,6 +164,16 @@ a:focus {
 }
 .intro .intro-body .intro-text {
   font-size: 18px;
+}
+.intro .intro-body ul.socials {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  font-size: 20px;
+}
+.intro .intro-body ul.socials li {
+  display: inline;
+  padding-right: 20px;
 }
 @media (min-width: 768px) {
   .intro {
@@ -187,7 +198,6 @@ a:focus {
   height: 70px;
   margin-top: 15px;
   padding: 7px 16px;
-  border: 1px solid white;
   border-radius: 100% !important;
   font-size: 40px;
   color: white;
@@ -296,7 +306,7 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  background: url(../img/scottymjacobson-landing-bg-3.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -383,6 +393,7 @@ img::-moz-selection {
 }
 .carousel .carousel-control {
   background-image: none;
+  box-shadow: none;
 }
 .carousel .item {
   margin: auto;

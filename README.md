@@ -1,13 +1,9 @@
 ScottyMJacobson.github.io
 =========================
 
-GitHub User Page
+Hello! This is my GitHub user page, which doubles as my homepage (as soon as the scottymjacobson.com DNS records update). 
 
+To make it, I used [Bootstrap](http://getbootstrap.com), using StartBootstrap's [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) theme as a foundation. The icons are from the illustrious [FontAwesome](fontawesome.io). There's also some simple [JQuery](http://jquery.com) going on under the hood. 
 
-(Information for project submission:)
-Implemented with HTML5 and CSS - CSS will be updated and expanded as I 
-decide on an asthetic for my career documents.
+I'm in the process of making it fully Jekyll-powered, but for now, the site is a bit frankensteined: a combination of lack of Jekyll experience and pushing Jekyll outside its comfort zone means that only some content is dynamic (though I completed my main objective, which was to be able to change my mind incessantly on the "about me" wall of text without pushing commits to index.html.) 
 
-I did not collaborate with anyone.
-
-I spent about 3 hours on this assignment.

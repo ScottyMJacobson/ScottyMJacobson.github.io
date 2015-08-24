@@ -15,8 +15,8 @@ highlighter: pygments
 
 
 ### content configuration ###
-title:       "ScottyMJacobson"
-keywords:    "web developer, full-stack, musician, designer, programmer, coder, hacker"
+title:       "Scotty M Jacobson"
+keywords:    "web developer, scottymjacobson, full-stack, musician, designer, programmer, coder, hacker"
 description: "Homepage for NYC-based web developer, musician, and all-around hacker."
 source_link: "https://github.com/ScottyMJacobson/ScottyMJacobson.github.io"
 favicon:     "icons/favicon.ico"

@@ -1,0 +1,31 @@
+-   index: 0
+    name: Havenn
+    active: active
+    link: havenn.com
+    caption: >
+        Aproxymate is an HTTP proxy written in python. 
+        It handles HTTP GET requests and does basic temporary caching through its companion, Memkeshed. 
+        Both were built atop python's HTTPServer and TCPServer modules, utilizing HTTP for aproxymate and a custom (esoteric, pop-culture-inspired) plaintext TCP protocol (modeled after memcached's) for communication with Memkeshed. 
+        A full walkthrough of the code, protocol, and their design can be found in <a href="https://scottymjacobson.github.io/aproxymate/aproxymate_presentation.html">this presentation.</a>
+    img: ./img/havenn_screenshot.jpg
+
+-   index: 1
+    active: 
+    name: Ostracon
+    link: https://github.com/ScottyMJacobson/ostracon
+    caption: >
+        Named for the stones on which Athenians cast their votes, Ostracon is a library built in Erlang and JavaScript that facilitates concurrent communication between multiple clients through a single server. 
+        It is set up to simultaneously handle and push changes in state across many clients in near real-time. 
+        Our goal when designing it was to eliminate boilerplate code in distributed web games; as a proof-of-concept, we built a multiplayer "snake"-like example game.
+    img: ./img/ostracon_screenshot.jpg"
+
+-   index: 2
+    active: 
+    name: Apoxymate / MemKeshed
+    link: https://github.com/ScottyMJacobson/aproxymate
+    caption: >
+        Aproxymate is an HTTP proxy written in python. 
+        It handles HTTP GET requests and does basic temporary caching through its companion, Memkeshed. 
+        Both were built atop python's HTTPServer and TCPServer modules, utilizing HTTP for aproxymate and a custom (esoteric, pop-culture-inspired) plaintext TCP protocol (modeled after memcached's) for communication with Memkeshed. 
+        A full walkthrough of the code, protocol, and their design can be found in <a href="https://scottymjacobson.github.io/aproxymate/aproxymate_presentation.html">this presentation.</a>
+    img: ./img/aproxymate-slides.jpg

@@ -1,19 +1,120 @@
+---
+---
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Scotty M. Jacobson</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/github_style.css" />  
-</head>
+<html lang="en">
 
-<body>
-    <div class="center">
-        <h2 class="top"> Hi, I'm Scotty M. Jacobson </h2> 
-        <img src="img/headshot.jpg" alt="Scotty_Headshot">
-        <h4>You can download a PDF resume <a href="assets/ScottyMJacobsonResume.pdf">here</a></h4>
-        <h4>Or visit my various profiles for more info:</a></h4>
+{% include header.html %} 
 
-    </div>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-</body> 
+    <!-- Navigation -->
+    {% include navbar.html %}
+
+    <!-- Intro Header -->
+    {% include intro-header.html %}
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About Me</h2>
+
+                <div class="photo-round larger">
+                    <img alt="Scotty Jacobson" class="js-avatar-img" itemprop="image" src="./img/headshot.jpeg">
+                </div>
+
+                <p class="quote">
+                    "Living at the intersection of music and technology...
+                    <br>
+                    It doesn't always look pretty, but the soundtrack keeps me going"
+                </p>
+
+                {% capture my_include %}{% include about-me-writeup.md %}{% endcapture %}
+                {{ my_include | markdownify }}
+                
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="content-section text-center">
+        <div class="projects-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Projects</h2>
+                </div>
+
+                {% include projects-carousel.html %}
+
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+
+    <section id="resume" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Resume</h2>
+
+                <h6>(Click to Download)</h6>
+
+                <div class="resume">
+                    <a href="./img/resume.pdf" alt="download-resume"><img alt="Scotty Jacobson Resume" class="resume-preview" itemprop="image" src="./img/resume-preview.png"></a>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact Me</h2>
+                <p>Feel free to email/tweet/message me with projects, career opportunities, or complaints about my website.</p>
+                <p><a class="email-hiding" href="mailto:{{myemailaddress}}@gmail.com"><span class="email-hiding">{{myemailaddress}}</span>@gmail.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://angel.co/ScottyMJacobson" class="btn btn-default btn-lg"><i class="fa fa-angellist fa-fw"></i> <span class="network-name">AngelList</span></a>
+                    </li>                    
+                    <li>
+                        <a href="https://github.com/ScottyMJacobson" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>                    
+                    <li>
+                        <a href="https://linkedin.com/in/ScottyMJacobson" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/ScottyMJacobson" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/scottymjacobson.js"></script>
+
+</body>
+
 </html>

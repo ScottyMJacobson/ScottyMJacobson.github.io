@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Font Reference - ScottyMJacobson</title>
+    <link href="http://fonts.googleapis.com/css?family=Dosis:400,500,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <h1>ScottyMJacobson</h1>
+      <p class="small">This font was created with<a href="http://fontastic.me/">Fontastic</a></p>
+      <h2>CSS mapping</h2>
+      <ul class="glyphs css-mapping">
+        <li>
+          <div class="icon icon-smj-logo"></div>
+          <input type="text" readonly="readonly" value="smj-logo">
+        </li>
+      </ul>
+      <h2>Character mapping</h2>
+      <ul class="glyphs character-mapping">
+        <li>
+          <div data-icon="a" class="icon"></div>
+          <input type="text" readonly="readonly" value="a">
+        </li>
+      </ul>
+    </div><script type="text/javascript">
+(function() {
+  var glyphs, _i, _len, _ref;
+
+  _ref = document.getElementsByClassName('glyphs');
+  for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+    glyphs = _ref[_i];
+    glyphs.addEventListener('click', function(event) {
+      if (event.target.tagName === 'INPUT') {
+        return event.target.select();
+      }
+    });
+  }
+
+}).call(this);
+</script>
+  </body>
+</html>

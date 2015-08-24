@@ -1,7 +1,6 @@
--   index: 0
-    name: Havenn
+-   name: Havenn
     active: active
-    link: havenn.com
+    link: http://havenn.com
     caption: >
         Aproxymate is an HTTP proxy written in python. 
         It handles HTTP GET requests and does basic temporary caching through its companion, Memkeshed. 
@@ -9,8 +8,7 @@
         A full walkthrough of the code, protocol, and their design can be found in <a href="https://scottymjacobson.github.io/aproxymate/aproxymate_presentation.html">this presentation.</a>
     img: ./img/havenn_screenshot.jpg
 
--   index: 1
-    active: 
+-   active: 
     name: Ostracon
     link: https://github.com/ScottyMJacobson/ostracon
     caption: >
@@ -19,8 +17,7 @@
         Our goal when designing it was to eliminate boilerplate code in distributed web games; as a proof-of-concept, we built a multiplayer "snake"-like example game.
     img: ./img/ostracon_screenshot.jpg"
 
--   index: 2
-    active: 
+-   active: 
     name: Apoxymate / MemKeshed
     link: https://github.com/ScottyMJacobson/aproxymate
     caption: >

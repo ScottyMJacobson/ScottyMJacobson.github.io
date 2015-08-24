@@ -2,7 +2,7 @@
   <!-- Indicators -->
   <ol class="carousel-indicators">
     {% for project in site.data.projects %}
-    <li data-target="#myCarousel" data-slide-to="{{ project.index }}" class="{{ project.active }}"></li>
+    <li data-target="#myCarousel" data-slide-to="{{ forloop.index0 }}" class="{{ project.active }}"></li>
     {% endfor %}
   </ol>
 

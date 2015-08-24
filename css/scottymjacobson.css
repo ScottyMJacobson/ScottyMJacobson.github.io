@@ -409,8 +409,8 @@ img::-moz-selection {
 }
 @media (max-width: 767px) {
   .carousel .item img {
-    width: 100%;
-    height: auto;
+    height: 400px;
+    overflow-x: hidden;
     margin: auto;
   }
 }

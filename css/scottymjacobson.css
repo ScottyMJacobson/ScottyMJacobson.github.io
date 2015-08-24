@@ -41,7 +41,6 @@ p {
   }
 }
 p .quote {
-  font-family: "Montserrat";
   font-style: italic;
 }
 a {
@@ -302,7 +301,6 @@ a:focus {
 }
 .content-section p.quote {
   margin-top: 35px;
-  font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 300;
   font-size: 12px;

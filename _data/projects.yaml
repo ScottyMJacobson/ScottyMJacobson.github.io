@@ -2,14 +2,12 @@
     active: active
     link: http://havenn.com
     caption: >
-        Aproxymate is an HTTP proxy written in python. 
-        It handles HTTP GET requests and does basic temporary caching through its companion, Memkeshed. 
-        Both were built atop python's HTTPServer and TCPServer modules, utilizing HTTP for aproxymate and a custom (esoteric, pop-culture-inspired) plaintext TCP protocol (modeled after memcached's) for communication with Memkeshed. 
-        A full walkthrough of the code, protocol, and their design can be found in <a href="https://scottymjacobson.github.io/aproxymate/aproxymate_presentation.html">this presentation.</a>
+        Havenn, developed as the final project for COMP120 Web Engineering, is a social network inspired by Instagram that allows users to anonymously post content to specialized subject groups, or Venns. 
+        Sprint goals of the project included Redis-powered caching, refactoring the frontend to be an AJAX-driven Angular app, and offloading asynchronous work in the backend to a Celery task queue.
     img: ./img/havenn_screenshot.jpg
 
--   active: 
-    name: Ostracon
+-   name: Ostracon
+    active: 
     link: https://github.com/ScottyMJacobson/ostracon
     caption: >
         Named for the stones on which Athenians cast their votes, Ostracon is a library built in Erlang and JavaScript that facilitates concurrent communication between multiple clients through a single server. 
@@ -17,8 +15,8 @@
         Our goal when designing it was to eliminate boilerplate code in distributed web games; as a proof-of-concept, we built a multiplayer "snake"-like example game.
     img: ./img/ostracon_screenshot.jpg"
 
--   active: 
-    name: Apoxymate / MemKeshed
+-   name: Apoxymate / MemKeshed
+    active: 
     link: https://github.com/ScottyMJacobson/aproxymate
     caption: >
         Aproxymate is an HTTP proxy written in python. 
